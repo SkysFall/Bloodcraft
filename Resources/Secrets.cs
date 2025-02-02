@@ -21,7 +21,7 @@ internal static class SecretManager
     }
     static void LoadSecrets()
     {
-        var resourceName = "Bloodcraft.Resources.secrets.json"; // Replace with your actual namespace and file path
+        var resourceName = "BloodcraftTest.Resources.secrets.json"; // Replace with your actual namespace and file path
         var assembly = Assembly.GetExecutingAssembly();
 
         using var stream = assembly.GetManifestResourceStream(resourceName)
